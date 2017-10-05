@@ -1,0 +1,22 @@
+body {
+  padding-top: 5rem;
+}
+
+header {
+  padding: 1rem;
+}
+
+.authorpic {
+  height: 10rem;
+  width: 10rem;
+}
+
+#lass-card-img {
+  height: auto;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.no-opacity {
+  opacity: 1;
+}
