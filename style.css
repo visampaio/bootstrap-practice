@@ -1,9 +1,14 @@
 body {
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 header {
   padding: 1rem;
+}
+
+.brandpic {
+  height: 3rem;
+  width: 3rem;
 }
 
 .authorpic {
