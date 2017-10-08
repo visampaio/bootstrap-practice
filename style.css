@@ -22,6 +22,29 @@ header {
   margin: 0 auto;
 }
 
+.card-back {
+  background-image: url(https://image.freepik.com/free-vector/abstract-blue-background_1048-1511.jpg);
+}
+
+.card-hover {
+  height: 10rem;
+  max-height: 130px;
+}
+
+.hover-text {
+  opacity: 0;
+  transition: all 0.5s;
+  margin-left: 8rem;
+}
+
+#click-card1:hover .hover-text {
+  opacity: 1;
+}
+
+#click-card2:hover .hover-text {
+  opacity: 1;
+}
+
 .carousel-indicators li {
   background-color: rgba(0, 0, 0, 0.26);
 }

@@ -26,4 +26,14 @@ $(document).ready(function() {
     $("#card-title4").mouseleave(function(){
         $("#card4").collapse('hide');
     });
+
+    $("#click-card1").click(function() {
+      $("#click-card1:hover .hover-text").toggle();
+      $("#card5").toggle();
+    });
+
+    $("#click-card2").click(function() {
+      $("#click-card2:hover .hover-text").toggle();
+      $("#card6").toggle();
+    });
 })
